@@ -257,7 +257,7 @@ animation-direction: normal;
 
 #title {
   color: #fff;
-  font: 6vw Arial black;
+  font: 6vw Arial Black;
   text-shadow: 2px 2px 3px #000,
               -2px -2px 3px #000;
   position: absolute; 
@@ -478,15 +478,22 @@ margin-top: 25%;
     background-color: #07419f;
         background-color: #07419f;
   }
-    
-    h6 {
-        font-size: 1.75rem !important;
-          
-    }
-    
-    p, li {
+  
+  h6 {
+      font-size: 1.75rem !important;
+  }
+  
+  p, li {
         font-size: 1.5rem;
-    }
+  }
+  
+  #title {
+      font: 700 9vw Arial Black;
+  }
+  
+  .transparent-h2 {
+      font: 800 8vw Verdana;
+  }
      
     
 
@@ -570,9 +577,7 @@ margin-top: 25%;
     min-height: 300px;
   }
 
-  .transparent-h2 {
-    font-size: 2rem;
-  }
+ 
 } 
 
 @media only screen and (min-width: 768px) {
@@ -586,6 +591,8 @@ margin-top: 25%;
   .icon-col p:last-of-type {      /* Last paragraphs in Icon Columns padded to space from button */
     padding-bottom: 2em;
   }
+  
+
   
     /* Slide Animation - Screens larger than 768px */
 
