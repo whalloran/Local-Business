@@ -1,12 +1,12 @@
 
-(function() {
+( () => {
   var elementsFadeIn;
   var elementsSlideLeft;
   var elementsSlideRight;
   var elementsSlideBottom;
   var windowHeight;
 
-  function init() {
+  let init = () => {
     elementsFadeIn = document.querySelectorAll('.hidden' && '.fade-in');
     elementsSlideLeft = document.querySelectorAll('.hidden' && '.slide-in-left');
     elementsSlideRight = document.querySelectorAll('.hidden' && '.slide-in-right');
@@ -14,7 +14,7 @@
     windowHeight = window.innerHeight;
   }
 
-  function checkPosition() {
+  let checkPosition = () => {
     for (var i = 0; i < elementsFadeIn.length; i++) {
       var elementFadeIn = elementsFadeIn[i];
       var positionFromTopFadeIn = elementsFadeIn[i].getBoundingClientRect().top;

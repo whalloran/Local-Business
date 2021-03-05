@@ -4,7 +4,7 @@ Theme URL: https://williamjhalloran.com/local-contractor
 Author: William Halloran
 Author URL: https://williamjhalloran.com
 Description: Local Contractor Theme
-Version: 1.0.0
+Version: 1.96
 */
 
 body {
@@ -217,7 +217,7 @@ h6 {
 animation-name: FadeInOut;
 animation-timing-function: ease-in-out;
 animation-iteration-count: infinite;
-animation-duration: 32s;
+animation-duration: 24s;
 animation-direction: normal;
 }
 
@@ -243,13 +243,13 @@ animation-direction: normal;
   animation-delay: 0;
 }
 #header-img-container img:nth-of-type(2) {
-  animation-delay: 8s;
+  animation-delay: 6s;
 }
 #header-img-container img:nth-of-type(3) {
-  animation-delay: 16s;
+  animation-delay: 12s;
 }
 #header-img-container img:nth-of-type(4) {
-  animation-delay: 24s;
+  animation-delay: 18s;
 }
 
 
